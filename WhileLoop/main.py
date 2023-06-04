@@ -30,22 +30,71 @@ i = 0
 
 # [10, 15]
 
-while i < 20:
-    if i >= 10 and i <= 15:
-        i += 1
-        continue
+# while i < 20:
+#     if i >= 10 and i <= 15:
+#         i += 1
+#         continue
+#
+#     print(i)
+#     i += 1
+#
+# # [0, 100]
+# value = 900
+#
+# if value >= 0 and value <= 100:
+#     print("in range")
+# else:
+#     print("not in range")
 
-    print(i)
+
+# a = 42
+# b = 13
+#
+# (a, b) = (b, a)
+
+# temp = a
+# a = b
+# b = temp
+
+# print("a = ", a)
+# print("b = ", b)
+#
+#
+#
+# begin = int(input())
+# end = int(input())
+#
+# begin_copy = begin
+#
+# print("first loop: ")
+# while begin < end:
+#     print(begin)
+#     begin += 1
+#
+#
+# begin = begin_copy
+#
+# print("second loop: ")
+# while begin < end:
+#     print(begin)
+#     begin += 1
+#
+
+
+i = 100
+c = 0
+while i < 9999:
+    lim = 0
+    if i < 1000:
+        lim = 3
+    else:
+        lim = 4
+
+    v = set(list(str(i)))
+
+    if len(v) == lim:
+        c += 1
+
     i += 1
 
-# [0, 100]
-value = 900
-
-if value >= 0 and value <= 100:
-    print("in range")
-else:
-    print("not in range")
-
-
-
-
+print(c)
