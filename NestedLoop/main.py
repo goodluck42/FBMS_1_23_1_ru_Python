@@ -69,3 +69,23 @@ for i in range(5):
 		else:
 			print("* ", end="")
 	print()
+
+
+b = 7
+
+# [5, 20]
+
+if b >= 5 and b <= 20:
+	print()
+
+
+spaces = 0
+stars = 6
+for i in range(stars):
+	for j in range(spaces):
+		print("  ", end="")
+	for j in range(stars):
+		print("* ", end="")
+	spaces += 1
+	stars -= 1
+	print()
