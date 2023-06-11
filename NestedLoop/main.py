@@ -1,71 +1,71 @@
+# n = int(input())
+#### WHILE VARIANT
+# i = 0
+
+# while i < 10:
+# 	# print(n, "x", i + 1, "=", (i + 1) * n)
+# 	b = i + 1
+# 	print(f"{n} * {b} = {b * n}")
+# 	i += 1
+#### FOR VARIANT
+# for i in range(1, 10 + 1):
+# 	print(f"{n} * {i} = {i * n}")
+
+#####################################
+
+# begin = int(input("Enter begin -> "))
+# end = int(input("Enter end -> "))
+
+### FOR VARIANT
+# for i in range(begin, end + 1):
+# 	for j in range(1, 10 + 1):
+# 		print(f"{i} * {j} = {i * j}")
+
+
+### WHILE VARIANT
+
+# i = begin
+#
+# while i <= end:
+# 	j = 1
+#
+# 	while j <= 10:
+# 		print(f"{i} * {j} = {i * j}")
+# 		j += 1
+#
+# 	print("-" * 10)
+#
+# 	i += 1
+#####################
 # i = 0
 #
-# while i < 5:
-# 	print(i)
+# while i < 3:
+# 	j = 0
+# 	print("nested loop begin")
+# 	while j < 3:
+# 		print(f"i = {i}; j = {j}")
+# 		j += 1
+# 	print("nested loop end")
 # 	i += 1
-################
-## range(end)
-# for i in range(5):  # 0 1 2 3 4
-# 	print(i)
 
-################
-## range(begin, end, step)
-# for i in range(3, 10, 2):  # 3 4 5 ... 9
-# 	print(i)
-################
-# i = 0
-#
-# while i < 5:
-# 	if i == 3:
-# 		continue
-#
-# 	print(i)
-#
-# 	i += 1
-################
-# for i in range(5):
-# 	if i == 3:
-# 		continue
-# 	print(i)
-################
+# i = 2 && j = 5
 
-# my_range = range(3, 10, 2)
+# for i in range(1, 4):
+# 	break_required = False
 #
-# print(list(my_range))
-#
-# for i in my_range:
-# 	i += 100
-# 	print(i)
+# 	for j in range(1, 6):
+# 		if i == 2 and j == 5:
+# 			break_required = True
+# 			break
+# 		print(f"i = {i}; j = {j}")
+# 	if break_required:
+# 		break
 
 
-# int, float, bool, str
-#
-
-# a = 42  #
-# b = a
-# a = 10
-#
-# print(b)
-
-# 1 2 3 4 5
-
-
-# a = 10
-# b = 20
-#
-# temp = a
-# a = b
-# b = temp
-#
-# print(a + b)
-#
-#
-# r = -(2 - 1 / 2 - 2)
-
-
-x = 0
-
-while x < 10:
-	if x == 3 or x == 4 or x == 5:
-		print("skip")
-	x += 1
+for i in range(5):
+	for j in range(5):
+		if i >= 1 and i <= 3 and j >= 1 and j <= 3:
+			print("  ", end="")
+		else:
+			print("* ", end="")
+	print()
