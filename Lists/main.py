@@ -100,7 +100,7 @@
 ## FOR VARIANT 2
 
 #         0   1   2   3
-prices = [40, 42, 50, 60]
+# prices = [40, 42, 50, 60]
 
 # for i in range(len(prices)):  # len(prices) = 4
 # 	prices[i] = prices[i] / 100 * 90
@@ -108,15 +108,32 @@ prices = [40, 42, 50, 60]
 # print(prices)
 
 ############
-## RANDOM LIST
+## RANDOM LIST (CUSTOM)
+# from random import randint
+#
+# numbers = []
+# begin = int(input("Begin of range: "))
+# end = int(input("End of range: "))
+# count = int(input("Length: "))
+#
+# for i in range(count):
+# 	numbers.append(randint(begin, end))
+#
+# print(numbers)
+
+## RANDOM (HARDCODE)
+
 from random import randint
 
 numbers = []
-begin = int(input("Begin of range: "))
-end = int(input("End of range: "))
-count = int(input("Length: "))
 
-for i in range(count):
-	numbers.append(randint(begin, end))
+for i in range(5):
+	numbers.append(randint(-10, 10))
 
 print(numbers)
+################################
+##          0   1   2   3   4
+# my_list = [10, 20, 30, 90, 42]
+#
+# for i in range(len(my_list)):
+# 	print(i, my_list[i])
