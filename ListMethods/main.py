@@ -145,6 +145,6 @@
 
 my_list = [10, 42, 15, 15, 30, 13]
 
-cnt = my_list.count(44)
+cnt = my_list.count(15)
 
 print(cnt)
