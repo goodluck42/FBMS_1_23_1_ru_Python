@@ -77,6 +77,55 @@ s = "Python is the best language for AI"
 
 ## ascii
 
-code = ord('\0')
+# text = 'abcş'
+#
+# if text.isascii():
+#     print(f"'{text}' is ascii")
+# else:
+#     print(f"'{text}' is not ascii")
 
-print(code)
+
+## isnumeric
+
+# text = "42"
+#
+# if text.isnumeric():
+#     print("OK")
+
+## startswith & endswith
+
+# text = "C++ is the best lang for gamedev"
+#
+# if text.startswith("C++"):
+#     print("starts")
+# else:
+#     print("not starts")
+
+
+# if text.endswith("dev"):
+#     print("ends")
+# else:
+#     print("not ends")
+
+## lower & upper
+
+# text = "Python!"
+#
+# # text = text.lower()
+# text = text.upper()
+#
+# print(text)
+
+## Escape sequences
+
+print("C++\n\n\nC#")
+print("C++\t\tC#")
+print("C++\b\b#")
+print("Python is the \"best\" language")
+print("\\n\\n")
+
+print("-" * 12)
+x = 5
+print("C++\nC#", end='')
+print('\n', end='')
+print(x, end='')
