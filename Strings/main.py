@@ -87,10 +87,10 @@ s = "Python is the best language for AI"
 
 ## isnumeric
 
-# text = "42"
-#
-# if text.isnumeric():
-#     print("OK")
+text = "42"
+
+if text.isnumeric():
+    print("OK")
 
 ## startswith & endswith
 
