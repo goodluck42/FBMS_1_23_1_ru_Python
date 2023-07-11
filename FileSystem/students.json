@@ -1,1 +1,12 @@
-[{"coins": 90, "crystals": 115, "name": "Vadim"}, {"coins": 45, "crystals": 99, "name": "Seymur"}]
+[
+  {
+    "coins": 90,
+    "crystals": 115,
+    "name": "Vadim"
+  },
+  {
+    "coins": 45,
+    "crystals": 99,
+    "name": "Seymur"
+  }
+]
