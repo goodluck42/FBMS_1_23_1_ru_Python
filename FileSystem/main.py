@@ -5,6 +5,7 @@
 # a+ - append & read
 
 
+
 ## list generators / list comprehesion
 # from random import randint
 #
@@ -96,4 +97,3 @@ import json
 #     students = json.load(fd)
 #
 # print(students)
-
