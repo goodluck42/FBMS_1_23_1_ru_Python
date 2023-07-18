@@ -17,7 +17,6 @@
 #     fd = open(filename, 'r')
 #
 #     # 2TODO: write an algorithm
-#
 #     fd.close()
 #
 #     return 42, 13
